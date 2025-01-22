@@ -1,0 +1,23 @@
+ol{
+    display:flex;
+    justify-content:space-around;
+    list-style-type: none;
+    margin:0;
+    padding:10px;
+    background-color:brown;
+    color: beige;
+}
+.link{
+    text-decoration:none;
+    color:beige;
+    padding:3px
+}
+.link:hover{
+    background-color: beige;
+    color:brown;
+    border-radius:10px;   
+} 
+span{
+    position:absolute;
+    position:relative;
+}
