@@ -1,7 +1,7 @@
 import { useEffect,useState } from "react";
 const UseEffect=()=>{
     var[text,setText]=useState("");
-    var[text,setText]=useState("");
+    
     useEffect(()=>{
         console.log(text);
     },[text])

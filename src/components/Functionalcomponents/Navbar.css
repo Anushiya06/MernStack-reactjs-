@@ -7,3 +7,59 @@ ol{
     background-color:brown;
     color: beige;
 }
+.drop {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown
+{
+    position: absolute;
+}
+.dropdown li {
+    padding: 10px;
+    text-align: left;
+  }
+
+  .dropdown li .link {
+    color: brown;
+  }
+  
+  .dropdown li .link:hover {
+    background-color: brown;
+    color: beige;
+    border-radius: 5px;
+  }
+
+span{
+    position: absolute;
+    position: relative;
+    color: aliceblue;
+    background-color: brown;
+    
+}
+
+.div ul{
+    position: relative;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    z-index: 10;
+}
+.link{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 3px;
+}
+
+.link:hover{
+    background-color: blanchedalmond;
+    color: rgb(241, 160, 9);
+    border-radius: 5px;
+    padding: 2px;
+}
