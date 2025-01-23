@@ -41,6 +41,8 @@ const Navbar = (onLogout) => {
                                 <li><Link to='usereducer' className='link'>useReducer</Link></li>
                                 <li><Link to='useref' className='link'>useRef</Link></li>
                                 <li><Link to='usememo' className='link'>UseMemo</Link></li>
+                                <li><Link to='usecallback' className='link'>useCallback</Link></li>
+                                <li><Link to='list' className='link'>list</Link></li>
                             </ul>
                         )}
                     </div>
