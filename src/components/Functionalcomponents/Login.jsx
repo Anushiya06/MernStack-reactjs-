@@ -1,21 +1,43 @@
-import { useNavigate,Link } from "react-router-dom"
-const Login=(p)=>{
-    const navigate = useNavigate();
-    const handleLogin = (e) =>{
-        e.preventDefault()
-        p.onLogin();
-        navigate("/");
-      }
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
-    return(
+
+function Login({ onLogin }) {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    onLogin(username, password); 
+  };
+
+  return (
+    <div>
+      <h2>Login</h2>
+      <form onSubmit={handleSubmit}>
         <div>
-            <form onSubmit={handleLogin}>
-            <input type='text' id='text' placeholder='Enter your Email Address' /><br/>
-            <input type='password' id='text' placeholder='Enter your Password' /><br/>
-            <input type='submit'></input>
-            </form>
+          <label>Username:</label>
+          <input
+            type="text"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+          />
         </div>
-    )
+        <div>
+          <label>Password:</label>
+          <input
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+        </div>
+        <button type="submit">Login</button>
+      </form>
+      <p>
+        Don't have an account? <Link to="/signup">Signup here</Link>
+      </p>
+    </div>
+  );
 }
 
-export default Login
+export default Login;
