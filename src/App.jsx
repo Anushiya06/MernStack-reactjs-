@@ -19,6 +19,8 @@ import UseCallback from './components/Functionalcomponents/Hooks/UseCallback';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ReactLifecycleMethods from './components/classComponents/ReactLifeCyclemethods';
 
+import Student from './components/Functionalcomponents/Hooks/Student';
+
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [user, setUser] = useState({ username: '', password: '' }); 
@@ -56,6 +58,7 @@ function App() {
               <Route path="/useref" element={<UseRef/>}/>
               <Route path="/usememo" element={<UseMemo/>} />
               <Route path="/usecall" element={<UseCallback/>} />
+              <Route path="/student" element={<Student/>}></Route>
             
             </Routes>
           </>
