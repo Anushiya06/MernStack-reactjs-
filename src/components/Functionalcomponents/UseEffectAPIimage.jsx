@@ -36,4 +36,4 @@ const UseEffectAPIimage = () => {
     </div>
   );
 };
-export default UseEffectAPIimage;  UseEffectAPIimage.jsx
+export default UseEffectAPIimage;
