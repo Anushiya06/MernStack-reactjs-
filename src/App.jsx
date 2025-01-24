@@ -1,20 +1,20 @@
 import { useState } from 'react';
 import './App.css';
 import Home from './components/Functionalcomponents/Home';
-import About from './components/FunctionalComponents/About';
-import Gallery from './components/FunctionalComponents/Gallery';
-import Contact from './components/FunctionalComponents/Contact';
+import About from './components/Functionalcomponents/About';
+import Gallery from './components/Functionalcomponents/Gallery';
+import Contact from './components/Functionalcomponents/Contact';
 import Navbar from './components/Functionalcomponents/Navbar';
 import Signup from './components/Functionalcomponents/Signup';
 import Login from './components/Functionalcomponents/Login';
-import UseState from './components/FunctionalComponents/Hooks/UseState';
-import UseEffect from './components/FunctionalComponents/Hooks/UseEffect';
-import UseEffectAPI from './components/FunctionalComponents/Hooks/UseEffectAPI';
+import UseState from './components/Functionalcomponents/Hooks/UseState';
+import UseEffect from './components/Functionalcomponents/Hooks/UseEffect';
+import UseEffectAPI from './components/Functionalcomponents/Hooks/UseEffectAPI';
 import UseReducer from './components/Functionalcomponents/Hooks/UseReducer';
-import UseEffectAPIimage from './components/FunctionalComponents/Hooks/UseEffectAPIimage'
-import UseRef from './components/FunctionalComponents/Hooks/UseRef'
+import UseEffectAPIimage from './components/Functionalcomponents/Hooks/UseEffectAPIimage'
+import UseRef from './components/Functionalcomponents/Hooks/UseRef'
 import UseMemo from './components/Functionalcomponents/Hooks/UseMemo';
-import UseCallback from './components/FunctionalComponents/Hooks/UseCallback';
+import UseCallback from './components/Functionalcomponents/Hooks/UseCallback';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
