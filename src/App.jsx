@@ -47,7 +47,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/gallery" element={<Gallery page="Gallery" img="time" />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/reactlifecyclemethod" element={<ReactLifecycleMethods/>}></Route>
+              <Route path="/reactlifecyclemethods" element={<ReactLifecycleMethods/>}></Route>
               <Route path="/usestate" element={<UseState />} />
               <Route path="/useeffect" element={<UseEffect />} />
               <Route path="/useapi" element={<UseEffectAPI/>}/>
