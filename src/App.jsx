@@ -11,7 +11,7 @@ import UseState from './components/Functionalcomponents/Hooks/UseState';
 import UseEffect from './components/Functionalcomponents/Hooks/UseEffect';
 import UseEffectAPI from './components/Functionalcomponents/Hooks/UseEffectAPI';
 import UseReducer from './components/Functionalcomponents/Hooks/UseReducer';
-import UseEffectAPIimage from './components/Functionalcomponents/Hooks/UseEffectAPIImage'
+import UseEffectAPIimage from './components/Functionalcomponents/Hooks/UseEffectAPIimage'
 import UseRef from './components/Functionalcomponents/Hooks/UseRef'
 import UseMemo from './components/Functionalcomponents/Hooks/UseMemo';
 import UseCallback from './components/Functionalcomponents/Hooks/UseCallback';
