@@ -17,7 +17,7 @@ import UseMemo from './components/Functionalcomponents/Hooks/UseMemo';
 import UseCallback from './components/Functionalcomponents/Hooks/UseCallback';
 import Memo from './components/Functionalcomponents/Memoization/Memo';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ReactLifecycleMethods from './components/classComponents/ReactLifeCycleMethods';
+import ReactLifecycleMethods from './components/classComponents/ReactLifecycleMethods';
 
 import Student from './components/Functionalcomponents/Hooks/Student';
 
