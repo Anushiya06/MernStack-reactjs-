@@ -17,6 +17,7 @@ const Navbar = () => {
           <li><Link to="/about" className="link">About</Link></li>
           <li><Link to="/gallery" className="link">Gallery</Link></li>
           <li><Link to="/contact" className="link">Contact</Link></li>
+          <li><Link to="/memo" className="link">React Memo</Link></li>
           <li
             className="dropdown"
             onMouseEnter={toggleDropdown}
@@ -35,6 +36,7 @@ const Navbar = () => {
                 <li><Link to="/usememo" className="link">useMemo</Link></li>
                 <li><Link to="/usecall" className="link">useCall</Link></li>
                 <li><Link to="/student" className="link">Student</Link></li>
+                
               </ul>
             )}
           </li>
