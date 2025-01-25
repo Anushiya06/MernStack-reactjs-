@@ -18,7 +18,7 @@ import UseCallback from './components/Functionalcomponents/Hooks/UseCallback';
 import Memo from './components/Functionalcomponents/Memoization/Memo';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ReactLifecycleMethods from './components/classComponents/ReactLifecycleMethods';
-
+import ClassCompEG from './components/classComponents/ClassCompEG';
 import Student from './components/Functionalcomponents/Hooks/Student';
 
 function App() {
@@ -60,7 +60,7 @@ function App() {
               <Route path="/usecall" element={<UseCallback/>} />
               <Route path="/student" element={<Student/>}></Route>
               <Route path="/memo" element={<Memo/>}></Route>
-            
+              <Route path="/classcompeg" element={<ClassCompEG/>}></Route>
             </Routes>
           </>
         ) : (

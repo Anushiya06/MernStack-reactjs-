@@ -1,7 +1,5 @@
 import React from 'react';
-
 class ClassCompEG extends React.Component {
-    
     render(){
         return(
           <div>

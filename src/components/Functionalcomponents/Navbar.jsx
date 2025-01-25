@@ -2,13 +2,20 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import './Navbar.css';
 
-
 const Navbar = () => {
   const [dropDown, setDropdown] = useState(false);
-
   const toggleDropdown = () => {
     setDropdown((prevState) => !prevState);
+  const [memodropDown, setmDropdown] = useState(false);
+  const[hookdropDown,sethDropdown]=useState(false);
+  const togglemDropdown = () => {
+    setmDropdown((prevState) => !prevState);
   };
+  const togglehDropdown = () => {
+    sethDropdown((prevState) => !prevState);
+  };
+
+
 
   return (
     <header>
@@ -46,5 +53,6 @@ const Navbar = () => {
     </header>
   );
 };
+}
 
 export default Navbar;
