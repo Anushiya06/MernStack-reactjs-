@@ -13,13 +13,18 @@ import UseEffectAPI from './components/Functionalcomponents/Hooks/UseEffectAPI';
 import UseReducer from './components/Functionalcomponents/Hooks/UseReducer';
 import UseEffectAPIimage from './components/Functionalcomponents/Hooks/UseEffectAPIimage'
 import UseRef from './components/Functionalcomponents/Hooks/UseRef'
-import UseMemo from './components/Functionalcomponents/Hooks/UseMemo';
+import UseMemo from './components/Functionalcomponents/Hooks/UseMemo'
 import UseCallback from './components/Functionalcomponents/Hooks/UseCallback';
-import Memo from './components/Functionalcomponents/Memoization/Memo';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ReactLifecycleMethods from './components/classComponents/ReactLifecycleMethods';
-import ClassCompEG from './components/classComponents/ClassCompEG';
 import Student from './components/Functionalcomponents/Hooks/Student';
+import Memo from './components/Functionalcomponents/Memoization/Memo';
+import ClassCompEG from './components/classComponents/ClassCompEG';
+import LazyLoadingWithSuspense from './components/Functionalcomponents/Memoization/LazyLoadingWithSuspense';
+import UseLocalStorage from './components/Functionalcomponents/Hooks/UseLocalStorage';
+import HoC from './components/Functionalcomponents/HoC/HoC';
+
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -49,7 +54,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/gallery" element={<Gallery page="Gallery" img="time" />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/reactlifecyclemethods" element={<ReactLifecycleMethods/>}></Route>
+              <Route path="/react-life-cycle" element={<ReactLifecycleMethods/>}></Route>
               <Route path="/usestate" element={<UseState />} />
               <Route path="/useeffect" element={<UseEffect />} />
               <Route path="/useapi" element={<UseEffectAPI/>}/>
@@ -60,7 +65,10 @@ function App() {
               <Route path="/usecall" element={<UseCallback/>} />
               <Route path="/student" element={<Student/>}></Route>
               <Route path="/memo" element={<Memo/>}></Route>
+              <Route path="/lazy" element={<LazyLoadingWithSuspense/>}></Route>
               <Route path="/classcompeg" element={<ClassCompEG/>}></Route>
+              <Route path="/use-custom" element={<UseLocalStorage />}></Route>
+              <Route path="/hoc" element={<Hoc/>}></Route>
             </Routes>
           </>
         ) : (
