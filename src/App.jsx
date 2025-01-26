@@ -23,7 +23,7 @@ import Memo from './components/Functionalcomponents/Memoization/Memo';
 import ClassCompEG from './components/classComponents/ClassCompEG';
 import LazyLoadingWithSuspense from './components/Functionalcomponents/Memoization/LazyLoadingWithSuspense';
 import UseLocalStorage from './components/Functionalcomponents/Hooks/UseLocalStorage';
-import HoC from './components/Functionalcomponents/HoC/HoC';
+import Hoc from './components/Functionalcomponents/HoC/HoC';
 
 
 function App() {

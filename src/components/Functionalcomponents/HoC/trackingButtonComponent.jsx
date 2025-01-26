@@ -1,6 +1,4 @@
-import React from 'react'
-
-const TrackingButton = (Component) => {
+const trackingButtonComponent = (Component) => {
     return (props) => {
         console.log("HoC tracking comp");
         const handleClick = () => {
@@ -15,4 +13,4 @@ const TrackingButton = (Component) => {
     }
 }
 
-export default TrackingButton
+export default trackingButtonComponent;
