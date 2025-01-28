@@ -1,8 +1,7 @@
-import React from 'react'
 import Button from "./Button"
-import trackingButtonComponent from './TrackingButtonComponent';
+import trackingButtonComponent from './trackingButtonComponent';
 
-const Hoc = () => {
+const HoC = () => {
     const ButtonWithTracking = trackingButtonComponent(Button);
 
   return (
@@ -13,4 +12,4 @@ const Hoc = () => {
   )
 }
 
-export default Hoc
+export default HoC
